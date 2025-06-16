@@ -1,4 +1,4 @@
 Student-Retention
 =================
 
-what most influences 1st year students at college to make the decision to complete a course 
+Identify students grades at college based on their hours studied, previous scores, hours sleep etc.
