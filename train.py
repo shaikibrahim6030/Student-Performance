@@ -15,7 +15,7 @@ df["extra_Curr"] = df["extra_Curr"].map({"No": 0, "Yes": 1})
 
 
 # Features (X) and Target (y)
-X = df[["hrs_Studied", "prev_score", "extra_Curr", "sleep", "sample_practiced"]]
+X = df[["hrs_Studied", "prev_score",  "sleep", "sample_practiced", "extra_Curr"]]
 y = df["Result"]
 
 # Split data into training and testing sets (80% train, 20% test)
